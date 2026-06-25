@@ -1,0 +1,502 @@
+[
+  {
+    "studentID": "S001",
+    "grade": 85.5,
+    "firstName": "Olivia",
+    "lastName": "Smith",
+    "fatherName": "David Smith",
+    "nationalID": "1234567890",
+    "birthYear": 2005,
+    "address": "123 Maple Street, Springfield"
+  },
+  {
+    "studentID": "S002",
+    "grade": 92.1,
+    "firstName": "Ethan",
+    "lastName": "Johnson",
+    "fatherName": "Michael Johnson",
+    "nationalID": "2345678901",
+    "birthYear": 2004,
+    "address": "456 Oak Avenue, Rivertown"
+  },
+  {
+    "studentID": "S003",
+    "grade": 78.25,
+    "firstName": "Emma",
+    "lastName": "Williams",
+    "fatherName": "Robert Williams",
+    "nationalID": "3456789012",
+    "birthYear": 2006,
+    "address": "789 Pine Road, Lakewood"
+  },
+  {
+    "studentID": "S004",
+    "grade": 91.75,
+    "firstName": "Noah",
+    "lastName": "Brown",
+    "fatherName": "James Brown",
+    "nationalID": "4567890123",
+    "birthYear": 2005,
+    "address": "321 Elm Street, Greenfield"
+  },
+  {
+    "studentID": "S005",
+    "grade": 65.0,
+    "firstName": "Sophia",
+    "lastName": "Jones",
+    "fatherName": "Thomas Jones",
+    "nationalID": "5678901234",
+    "birthYear": 2007,
+    "address": "654 Cedar Lane, Hillcrest"
+  },
+  {
+    "studentID": "S006",
+    "grade": 88.5,
+    "firstName": "Liam",
+    "lastName": "Garcia",
+    "fatherName": "Daniel Garcia",
+    "nationalID": "6789012345",
+    "birthYear": 2004,
+    "address": "987 Birch Boulevard, Pleasantville"
+  },
+  {
+    "studentID": "S007",
+    "grade": 73.0,
+    "firstName": "Mia",
+    "lastName": "Miller",
+    "fatherName": "Christopher Miller",
+    "nationalID": "7890123456",
+    "birthYear": 2006,
+    "address": "147 Spruce Way, Fairview"
+  },
+  {
+    "studentID": "S008",
+    "grade": 95.0,
+    "firstName": "Jackson",
+    "lastName": "Davis",
+    "fatherName": "Andrew Davis",
+    "nationalID": "8901234567",
+    "birthYear": 2005,
+    "address": "258 Willow Drive, Summit"
+  },
+  {
+    "studentID": "S009",
+    "grade": 80.0,
+    "firstName": "Charlotte",
+    "lastName": "Rodriguez",
+    "fatherName": "Joshua Rodriguez",
+    "nationalID": "9012345678",
+    "birthYear": 2004,
+    "address": "369 Ash Court, Meadowbrook"
+  },
+  {
+    "studentID": "S010",
+    "grade": 70.5,
+    "firstName": "Aiden",
+    "lastName": "Martinez",
+    "fatherName": "Anthony Martinez",
+    "nationalID": "0123456789",
+    "birthYear": 2006,
+    "address": "741 Poplar Place, Riverside"
+  },
+  {
+    "studentID": "S011",
+    "grade": 89.0,
+    "firstName": "Amelia",
+    "lastName": "Hernandez",
+    "fatherName": "Kevin Hernandez",
+    "nationalID": "1122334455",
+    "birthYear": 2005,
+    "address": "852 Sycamore Street, Highland"
+  },
+  {
+    "studentID": "S012",
+    "grade": 76.5,
+    "firstName": "Lucas",
+    "lastName": "Lopez",
+    "fatherName": "Brian Lopez",
+    "nationalID": "2233445566",
+    "birthYear": 2007,
+    "address": "963 Redwood Avenue, Parkview"
+  },
+  {
+    "studentID": "S013",
+    "grade": 93.5,
+    "firstName": "Evelyn",
+    "lastName": "Gonzalez",
+    "fatherName": "Mark Gonzalez",
+    "nationalID": "3344556677",
+    "birthYear": 2004,
+    "address": "159 Magnolia Lane, Maplewood"
+  },
+  {
+    "studentID": "S014",
+    "grade": 67.0,
+    "firstName": "Mason",
+    "lastName": "Wilson",
+    "fatherName": "Steven Wilson",
+    "nationalID": "4455667788",
+    "birthYear": 2006,
+    "address": "357 Chestnut Court, Lakeview"
+  },
+  {
+    "studentID": "S015",
+    "grade": 82.0,
+    "firstName": "Ava",
+    "lastName": "Anderson",
+    "fatherName": "Paul Anderson",
+    "nationalID": "5566778899",
+    "birthYear": 2005,
+    "address": "456 Beech Street, Oakwood"
+  },
+  {
+    "studentID": "S016",
+    "grade": 71.25,
+    "firstName": "Logan",
+    "lastName": "Thomas",
+    "fatherName": "Donald Thomas",
+    "nationalID": "6677889900",
+    "birthYear": 2005,
+    "address": "789 Hickory Drive, Pineville"
+  },
+  {
+    "studentID": "S017",
+    "grade": 96.0,
+    "firstName": "Harper",
+    "lastName": "Taylor",
+    "fatherName": "Ronald Taylor",
+    "nationalID": "7788990011",
+    "birthYear": 2004,
+    "address": "123 Walnut Place, Cedar City"
+  },
+  {
+    "studentID": "S018",
+    "grade": 60.0,
+    "firstName": "James",
+    "lastName": "Moore",
+    "fatherName": "Jeffrey Moore",
+    "nationalID": "8899001122",
+    "birthYear": 2007,
+    "address": "456 Palm Way, Palm Grove"
+  },
+  {
+    "studentID": "S019",
+    "grade": 85.0,
+    "firstName": "Abigail",
+    "lastName": "Jackson",
+    "fatherName": "Jason Jackson",
+    "nationalID": "9900112233",
+    "birthYear": 2006,
+    "address": "789 Cypress Road, Cypress Park"
+  },
+  {
+    "studentID": "S020",
+    "grade": 90.5,
+    "firstName": "Benjamin",
+    "lastName": "Martin",
+    "fatherName": "Justin Martin",
+    "nationalID": "1010101010",
+    "birthYear": 2005,
+    "address": "147 Fir Court, Firwood"
+  },
+  {
+    "studentID": "S021",
+    "grade": 74.0,
+    "firstName": "Emily",
+    "lastName": "Lee",
+    "fatherName": "Frank Lee",
+    "nationalID": "2020202020",
+    "birthYear": 2006,
+    "address": "258 Hemlock Street, Hemlock"
+  },
+  {
+    "studentID": "S022",
+    "grade": 88.0,
+    "firstName": "Alexander",
+    "lastName": "Perez",
+    "fatherName": "George Perez",
+    "nationalID": "3030303030",
+    "birthYear": 2004,
+    "address": "369 Juniper Lane, Juniper"
+  },
+  {
+    "studentID": "S023",
+    "grade": 79.5,
+    "firstName": "Avery",
+    "lastName": "Thompson",
+    "fatherName": "Edward Thompson",
+    "nationalID": "4040404040",
+    "birthYear": 2005,
+    "address": "741 Olive Drive, Olive Branch"
+  },
+  {
+    "studentID": "S024",
+    "grade": 92.5,
+    "firstName": "Ella",
+    "lastName": "White",
+    "fatherName": "Henry White",
+    "nationalID": "5050505050",
+    "birthYear": 2004,
+    "address": "852 Aspen Avenue, Aspen"
+  },
+  {
+    "studentID": "S025",
+    "grade": 68.0,
+    "firstName": "Nathan",
+    "lastName": "Harris",
+    "fatherName": "Kenneth Harris",
+    "nationalID": "6060606060",
+    "birthYear": 2007,
+    "address": "963 Beechwood Place, Beechwood"
+  },
+  {
+    "studentID": "S026",
+    "grade": 81.5,
+    "firstName": "Scarlett",
+    "lastName": "Sanchez",
+    "fatherName": "Samuel Sanchez",
+    "nationalID": "7070707070",
+    "birthYear": 2005,
+    "address": "159 Willow Court, Willow Glen"
+  },
+  {
+    "studentID": "S027",
+    "grade": 87.0,
+    "firstName": "Daniel",
+    "lastName": "Clark",
+    "fatherName": "David Clark",
+    "nationalID": "8080808080",
+    "birthYear": 2006,
+    "address": "357 Poplar Street, Poplar Heights"
+  },
+  {
+    "studentID": "S028",
+    "grade": 75.5,
+    "firstName": "Madison",
+    "lastName": "Ramirez",
+    "fatherName": "Richard Ramirez",
+    "nationalID": "9090909090",
+    "birthYear": 2005,
+    "address": "456 Cedar Drive, Cedar Meadows"
+  },
+  {
+    "studentID": "S029",
+    "grade": 98.0,
+    "firstName": "Joseph",
+    "lastName": "Flores",
+    "fatherName": "Charles Flores",
+    "nationalID": "1112131415",
+    "birthYear": 2004,
+    "address": "789 Birch Lane, Birchwood"
+  },
+  {
+    "studentID": "S030",
+    "grade": 64.5,
+    "firstName": "Lily",
+    "lastName": "Parker",
+    "fatherName": "Gary Parker",
+    "nationalID": "2122232425",
+    "birthYear": 2007,
+    "address": "123 Oakwood Court, Oakwood"
+  },
+  {
+    "studentID": "S031",
+    "grade": 83.0,
+    "firstName": "Christopher",
+    "lastName": "Adams",
+    "fatherName": "Timothy Adams",
+    "nationalID": "3132333435",
+    "birthYear": 2006,
+    "address": "456 Pinehill Drive, Pinehill"
+  },
+  {
+    "studentID": "S032",
+    "grade": 91.0,
+    "firstName": "Zoe",
+    "lastName": "Baker",
+    "fatherName": "Eric Baker",
+    "nationalID": "4142434445",
+    "birthYear": 2005,
+    "address": "789 Maplewood Road, Maplewood"
+  },
+  {
+    "studentID": "S033",
+    "grade": 77.0,
+    "firstName": "Matthew",
+    "lastName": "Nelson",
+    "fatherName": "Adam Nelson",
+    "nationalID": "5152535455",
+    "birthYear": 2004,
+    "address": "147 Elmhurst Way, Elmhurst"
+  },
+  {
+    "studentID": "S034",
+    "grade": 69.75,
+    "firstName": "Grace",
+    "lastName": "Carter",
+    "fatherName": "Ryan Carter",
+    "nationalID": "6162636465",
+    "birthYear": 2006,
+    "address": "258 Hillcrest Avenue, Hillcrest"
+  },
+  {
+    "studentID": "S035",
+    "grade": 94.0,
+    "firstName": "Andrew",
+    "lastName": "Mitchell",
+    "fatherName": "Tyler Mitchell",
+    "nationalID": "7172737475",
+    "birthYear": 2005,
+    "address": "369 Lakeview Drive, Lakeview"
+  },
+  {
+    "studentID": "S036",
+    "grade": 72.0,
+    "firstName": "Sofia",
+    "lastName": "Roberts",
+    "fatherName": "Cameron Roberts",
+    "nationalID": "8182838485",
+    "birthYear": 2007,
+    "address": "741 Greenbriar Lane, Greenbriar"
+  },
+  {
+    "studentID": "S037",
+    "grade": 86.5,
+    "firstName": "David",
+    "lastName": "Turner",
+    "fatherName": "Patrick Turner",
+    "nationalID": "9192939495",
+    "birthYear": 2004,
+    "address": "852 Sunnyside Court, Sunnyside"
+  },
+  {
+    "studentID": "S038",
+    "grade": 79.0,
+    "firstName": "Chloe",
+    "lastName": "Phillips",
+    "fatherName": "Sean Phillips",
+    "nationalID": "1213141516",
+    "birthYear": 2005,
+    "address": "963 Parkland Drive, Parkland"
+  },
+  {
+    "studentID": "S039",
+    "grade": 90.0,
+    "firstName": "Anthony",
+    "lastName": "Collins",
+    "fatherName": "Wesley Collins",
+    "nationalID": "2223242526",
+    "birthYear": 2006,
+    "address": "159 Ridgewood Road, Ridgewood"
+  },
+  {
+    "studentID": "S040",
+    "grade": 63.0,
+    "firstName": "Ella",
+    "lastName": "Stewart",
+    "fatherName": "Bryan Stewart",
+    "nationalID": "3233343536",
+    "birthYear": 2007,
+    "address": "357 Riverbend Drive, Riverbend"
+  },
+  {
+    "studentID": "S041",
+    "grade": 82.25,
+    "firstName": "Isaac",
+    "lastName": "Morris",
+    "fatherName": "Jordan Morris",
+    "nationalID": "4243444546",
+    "birthYear": 2005,
+    "address": "456 Evergreen Terrace, Evergreen"
+  },
+  {
+    "studentID": "S042",
+    "grade": 97.0,
+    "firstName": "Aria",
+    "lastName": "Murphy",
+    "fatherName": "Dylan Murphy",
+    "nationalID": "5253545556",
+    "birthYear": 2004,
+    "address": "789 Countryside Lane, Countryside"
+  },
+  {
+    "studentID": "S043",
+    "grade": 71.5,
+    "firstName": "Carter",
+    "lastName": "Cook",
+    "fatherName": "Taylor Cook",
+    "nationalID": "6263646566",
+    "birthYear": 2006,
+    "address": "123 Fairfield Way, Fairfield"
+  },
+  {
+    "studentID": "S044",
+    "grade": 89.5,
+    "firstName": "Victoria",
+    "lastName": "Rogers",
+    "fatherName": "Austin Rogers",
+    "nationalID": "7273747576",
+    "birthYear": 2005,
+    "address": "456 Deerfield Road, Deerfield"
+  },
+  {
+    "studentID": "S045",
+    "grade": 76.0,
+    "firstName": "Julian",
+    "lastName": "Peterson",
+    "fatherName": "Evan Peterson",
+    "nationalID": "8283848586",
+    "birthYear": 2004,
+    "address": "789 Meadow Lane, Meadowview"
+  },
+  {
+    "studentID": "S046",
+    "grade": 84.0,
+    "firstName": "Aurora",
+    "lastName": "Howard",
+    "fatherName": "Ian Howard",
+    "nationalID": "9293949596",
+    "birthYear": 2006,
+    "address": "147 Woodland Drive, Woodland"
+  },
+  {
+    "studentID": "S047",
+    "grade": 73.75,
+    "firstName": "Miles",
+    "lastName": "Ward",
+    "fatherName": "Kyle Ward",
+    "nationalID": "1314151617",
+    "birthYear": 2007,
+    "address": "258 Sunset Boulevard, Sunset"
+  },
+  {
+    "studentID": "S048",
+    "grade": 95.5,
+    "firstName": "Aaliyah",
+    "lastName": "Bell",
+    "fatherName": "Zachary Bell",
+    "nationalID": "2324252627",
+    "birthYear": 2005,
+    "address": "369 Westbrook Drive, Westbrook"
+  },
+  {
+    "studentID": "S049",
+    "grade": 68.5,
+    "firstName": "Wyatt",
+    "lastName": "Bailey",
+    "fatherName": "Nathan Bailey",
+    "nationalID": "3334353637",
+    "birthYear": 2006,
+    "address": "741 Northgate Court, Northgate"
+  },
+  {
+    "studentID": "S050",
+    "grade": 88.75,
+    "firstName": "Hazel",
+    "lastName": "Cooper",
+    "fatherName": "Adam Cooper",
+    "nationalID": "4344454647",
+    "birthYear": 2004,
+    "address": "852 Brookside Lane, Brookside"
+  }
+]

@@ -1,0 +1,44 @@
+[
+    {
+        "BookID" : "B2012",
+        "book title" : "The Power of Habit",
+        "book author" : "Charles Duhigg",
+        "translator" : "Hadi Bahmani",
+        "publication" : "Novin",
+        "ISBN" : "9781400069286",
+        "publication year" : "2012",
+        "enter date" : "10-3-2020 (dd/mm/yyyy)",
+        "purchased price (original)" : "420000.0",
+        "sale price" : "510000.0",
+        "quantity" : "3"
+    },
+
+    {
+        "BookID" : "B2019",
+        "book title" : "Tiny Habits",
+        "book author" : "BJ Fogg",
+        "translator" : "Hadi Bahmani",
+        "publication" : "Novin",
+        "ISBN" : "9780358003328",
+        "publication year" : "2019",
+        "enter date" : "5-2-2021 (dd/mm/yyyy)",
+        "purchased price (original)" : "380000.0",
+        "sale price" : "465000.0",
+        "quantity" : "1"
+    },
+
+    {
+        "BookID" : "B2006",
+        "book title" : "Mindset: The New Psychology of Success",
+        "book author" : "Carol S. Dweck",
+        "translator" : "Hadi Bahmani",
+        "publication" : "Novin",
+        "ISBN" : "9780345472328",
+        "publication year" : "2006",
+        "enter date" : "22-7-2020 (dd/mm/yyyy)",
+        "purchased price (original)" : "360000.0",
+        "sale price" : "440000.0",
+        "quantity" : "12"
+    }
+
+]

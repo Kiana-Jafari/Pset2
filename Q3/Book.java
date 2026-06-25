@@ -19,7 +19,8 @@ abstract class Book {
         String translator,
         String publication,
         String ISBN,
-        int publishedYear)
+        int publishedYear
+    )
 
     {
         this.title = title;

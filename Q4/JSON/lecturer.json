@@ -1,0 +1,12 @@
+[
+  {
+    "lecturerID": "L001",
+    "salary": 78500.0,
+    "firstName": "Jonathan",
+    "lastName": "Anderson",
+    "fatherName": "Robert Anderson",
+    "nationalID": "9876543210",
+    "birthYear": 1980,
+    "address": "456 University Avenue, College Town, ST 54321"
+  }
+]

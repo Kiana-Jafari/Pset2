@@ -1,8 +1,12 @@
 package Q3;
 
+import java.util.Scanner;
+
 public class Main {
     
     public static void main(String[] args) {
+
+        Scanner scanner = new Scanner(System.in);
         
         AvailableBooks b1 = new AvailableBooks();
         Date d1 = new Date(1, 3, 1989);
@@ -70,32 +74,42 @@ public class Main {
         // sale price: 475000.0
         // quantity: 3
 
-        Store s1 = new Store();
+        Store store = new Store();
         
-        s1.addBook();
+        store.addBook(scanner);
 
         int q;
 
         String bookID = "B2018";
-        q = s1.returnQuantity(bookID);
+        q = store.returnQuantity(bookID);
         System.out.println("There are " + q + " books available with ID " + bookID + " "); // should print 3
         
-        s1.sale(bookID, 2);
-        q = s1.returnQuantity(bookID);
+        store.sale(bookID, 2);
+        q = store.returnQuantity(bookID);
         System.out.println("There are " + q + " book(s) available with ID " + bookID + " "); // should print 1
-        
+
         try {
-            s1.sale("B2018", 4); // should produce an error
+            store.returnQuantity("B2012");
         }
 
         catch (Exception e) {
-            System.out.println(e.getMessage());
+            System.out.println(e.getMessage()); // No book with ID B2012
+        }
+        
+        try {
+            store.sale("B2018", 4);
         }
 
-        s1.changePrice(bookID, 498000);
+        catch (Exception e) {
+            System.out.println(e.getMessage()); // Current quantity: 1; requested quantity: 4
+        }
 
-        s1.getInfo(); // add three more books
+        store.changePrice(bookID, 498000);
+
+        store.getInfo(scanner); // add three more books
         
-        s1.save(); // save to files
+        store.save(); // save to files
+
+        scanner.close(); // close the Scanner object to avoid data leakage
     }
 }

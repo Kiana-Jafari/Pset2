@@ -1,0 +1,92 @@
+[
+  {
+    "code": "CS101",
+    "title": "Introduction to Computer Science",
+    "credits": 3,
+    "type": 1
+  },
+  {
+    "code": "CS201",
+    "title": "Data Structures and Algorithms",
+    "credits": 4,
+    "type": 1
+  },
+  {
+    "code": "CS301",
+    "title": "Database Management Systems",
+    "credits": 3,
+    "type": 1
+  },
+  {
+    "code": "CS401",
+    "title": "Software Engineering Project",
+    "credits": 4,
+    "type": 2
+  },
+  {
+    "code": "CS250",
+    "title": "Web Development Fundamentals",
+    "credits": 3,
+    "type": 2
+  },
+  {
+    "code": "CS380",
+    "title": "Machine Learning with Python",
+    "credits": 3,
+    "type": 2
+  },
+  {
+    "code": "CS110",
+    "title": "Programming Lab I",
+    "credits": 1,
+    "type": 3
+  },
+  {
+    "code": "CS210",
+    "title": "Data Structures Lab",
+    "credits": 1,
+    "type": 3
+  },
+  {
+    "code": "MATH101",
+    "title": "Calculus I",
+    "credits": 3,
+    "type": 1
+  },
+  {
+    "code": "MATH205",
+    "title": "Linear Algebra and Probability",
+    "credits": 3,
+    "type": 1
+  },
+  {
+    "code": "MATH310",
+    "title": "Mathematical Modeling",
+    "credits": 3,
+    "type": 2
+  },
+  {
+    "code": "PHY101",
+    "title": "General Physics I",
+    "credits": 4,
+    "type": 1
+  },
+  {
+    "code": "PHY210",
+    "title": "Electronics and Circuits",
+    "credits": 3,
+    "type": 2
+  },
+  {
+    "code": "PHY150",
+    "title": "Physics Laboratory I",
+    "credits": 1,
+    "type": 3
+  },
+  {
+    "code": "ENG101",
+    "title": "Academic Writing and Composition",
+    "credits": 2,
+    "type": 1
+  }
+]

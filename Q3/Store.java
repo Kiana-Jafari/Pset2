@@ -7,7 +7,7 @@ import java.io.IOException;
 
 public class Store {
 
-    private int capacity = 1000; // maximum number of books
+    private final int capacity = 1000; // maximum number of books
     private int n; // keeps track of the number of books
     private AvailableBooks[] booksList = new AvailableBooks[capacity];
 
@@ -22,7 +22,7 @@ public class Store {
         for (int i = 0; i < n; i++) 
         {
             if (booksList[i].getBookID().equals(bookID))
-            return booksList[i].getQuantity();
+                return booksList[i].getQuantity();
         }
 
         throw new NoSuchElementException("No book with ID " + bookID);
@@ -32,8 +32,9 @@ public class Store {
     public void save() {
 
         // try-with-resources
-        try (FileWriter booksInfo = new FileWriter("books.txt")) {
-            
+        try (FileWriter booksInfo = new FileWriter("books.txt")) 
+        {
+
             for (int i = 0; i < n; i++) 
             {
                 booksInfo.write(booksList[i].getBookID());
@@ -48,7 +49,7 @@ public class Store {
                 booksInfo.write(" ");
                 booksInfo.write(booksList[i].getISBN());
                 booksInfo.write(" ");
-                booksInfo.write(booksList[i].getPublishedYear());
+                booksInfo.write(Integer.toString(booksList[i].getPublishedYear()));
                 booksInfo.write(" ");
                 booksInfo.write(booksList[i].getEnterDate());
                 booksInfo.write(" ");
@@ -83,7 +84,8 @@ public class Store {
                 }
 
                 else
-                throw new IllegalArgumentException("Current quantity: " + booksList[i].getQuantity() + "; requested quantity: " + num);
+                    throw new IllegalArgumentException(
+                            "Current quantity: " + booksList[i].getQuantity() + "; requested quantity: " + num);
             }
         }
     }
@@ -96,17 +98,18 @@ public class Store {
             if (booksList[i].getBookID().equals(bookID)) 
             {
                 booksList[i].setSalePrice(price);
+                System.out.println("Sale price has been updated successfully!");
                 break;
             }
         }
     }
 
     // insert a new book to the array if it is not already included
-    public void addBook() {
+    public void addBook(Scanner scanner) {
 
         AvailableBooks newBook = new AvailableBooks();
 
-        newBook.getInput(); // get the book info from the user
+        newBook.getInput(scanner); // get the book info from the user
 
         if (!isPresent(newBook.getBookID())) 
         {
@@ -115,17 +118,17 @@ public class Store {
         }
     }
 
-    public void getInfo() {
+    // get the info of N books and add them to the array
+    public void getInfo(Scanner scanner) {
 
-        Scanner input = new Scanner(System.in);
         int N;
 
         System.out.printf("\nHow many books do you want to add?: ");
-        N = input.nextInt();
+        N = scanner.nextInt();
 
         for (int i = 0; i < N; i++) 
         {
-            addBook(); // call the addBook function to add N books to the array
+            addBook(scanner); // call the addBook function to add N books to the array
         }
     }
 
