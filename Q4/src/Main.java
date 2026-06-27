@@ -1,4 +1,4 @@
-package Q4;
+package src;
 
 import java.util.Scanner;
 
@@ -8,7 +8,7 @@ public class Main {
 
         Scanner input = new Scanner(System.in);
 
-        // A maximum capacity of 2 students is considered for testing the program
+        // 2 students were added for testing the program
 
         // Course:
 

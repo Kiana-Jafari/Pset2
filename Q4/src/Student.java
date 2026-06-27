@@ -1,4 +1,4 @@
-package Q4;
+package src;
 
 import java.util.Scanner;
 
@@ -9,18 +9,18 @@ public class Student extends Person {
     private double grade;
 
     // constructors
-    public Student() {}
+    public Student() {
+    }
 
     public Student(
-        String studentID,
-        double grade,
-        String firstName,
-        String lastName,
-        String fatherName,
-        String nationalID,
-        int birthYear,
-        String address
-    )
+            String studentID,
+            double grade,
+            String firstName,
+            String lastName,
+            String fatherName,
+            String nationalID,
+            int birthYear,
+            String address)
 
     {
         super(firstName, lastName, fatherName, nationalID, birthYear, address);

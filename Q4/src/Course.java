@@ -1,18 +1,21 @@
-package Q4;
+package src;
 
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;
 
 public class Course extends Lesson {
-    
+
     private final int capacity = 50; // a maximum of 50 students
 
+    private int n; // keep track of the students
     private Lecturer lecturer; // composition; HAS-A relationship
     private Student[] students = new Student[capacity];
 
     // default constructor
-    public Course() {}
+    public Course() {
+        n = 0;
+    }
 
     // function that gets the course info from the user
     public void getCourseInfo(Scanner scanner) {
@@ -26,11 +29,27 @@ public class Course extends Lesson {
         lecturer.getInfo(scanner);
 
         // get student info
-        for (int i = 0; i < capacity; i++)
+        System.out.printf("\nHow many students do you want to add?: ");
+        int N = scanner.nextInt();
+        scanner.nextLine();
+
+        for (int i = 0; i < N; i++) 
         {
-            students[i] = new Student();
-            System.out.println("\nEnter the " + (i + 1) + " student's info:");
-            students[i].getInfo(scanner);
+            System.out.println("Enter the " + (i + 1) + " student info: ");
+            addStudent(scanner);
+        }
+    }
+
+    // function to add a new student
+    public void addStudent(Scanner scanner) {
+
+        Student newStudent = new Student();
+        newStudent.getInfo(scanner);
+
+        if (!isPresent(newStudent.getStudentID())) 
+        {
+            students[n] = newStudent;
+            n++;
         }
     }
 
@@ -39,7 +58,7 @@ public class Course extends Lesson {
 
         double grade;
 
-        for (int i = 0; i < capacity; i++)
+        for (int i = 0; i < n; i++) 
         {
             System.out.printf("\nEnter the " + (i + 1) + " student's grade: ");
             grade = scanner.nextDouble();
@@ -51,18 +70,18 @@ public class Course extends Lesson {
     public void sortGrades() {
 
         // sort the grades in descending order
-        for (int i = 0; i < (capacity - 1); i++)
+        for (int i = 0; i < (n - 1); i++) 
         {
-            for (int j = 0; j < (capacity - 1 - i); j++)
+            for (int j = 0; j < (n - 1 - i); j++) 
             {
                 Student temp = new Student();
 
-                if (students[j].getGrade() < students[j + 1].getGrade())
+                if (students[j].getGrade() < students[j + 1].getGrade()) 
                 {
                     temp = students[j];
                     students[j] = students[j + 1];
                     students[j + 1] = temp;
-                }   
+                }
             }
         }
     }
@@ -72,7 +91,7 @@ public class Course extends Lesson {
 
         System.out.println("StudentID \t Grade");
 
-        for (int i = 0; i < capacity; i++)
+        for (int i = 0; i < n; i++) 
         {
             System.out.println(students[i].getStudentID() + '\t' + students[i].getGrade());
         }
@@ -82,11 +101,11 @@ public class Course extends Lesson {
     public void save() {
 
         // try-with-resources
-        try (FileWriter studentsInfo = new FileWriter("students.txt"))
+        try (FileWriter studentsInfo = new FileWriter("students.txt")) 
         {
             studentsInfo.write("course title | ccode | studentID | student grade\n");
 
-            for (int i = 0; i < capacity; i++)
+            for (int i = 0; i < n; i++) 
             {
                 studentsInfo.write(this.getTitle());
                 studentsInfo.write(" ");
@@ -100,9 +119,20 @@ public class Course extends Lesson {
             }
         }
 
-        catch (IOException e)
-        {
+        catch (IOException e) {
             System.out.println("Error saving students' info to the file");
         }
+    }
+
+    // utility function to check the existence of a student based on their ID
+    private boolean isPresent(String studentID) {
+
+        for (int i = 0; i < n; i++) 
+        {
+            if (students[i].getStudentID().equals(studentID))
+                return true;
+        }
+
+        return false;
     }
 }
