@@ -110,7 +110,6 @@ public class Course extends Lesson {
                 studentsInfo.write(this.getTitle());
                 studentsInfo.write(" ");
                 studentsInfo.write(this.getCode());
-                studentsInfo.write(students[i].getStudentID());
                 studentsInfo.write(" ");
                 studentsInfo.write(students[i].getStudentID());
                 studentsInfo.write(" ");
