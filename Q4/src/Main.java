@@ -65,6 +65,6 @@ public class Main {
         // close() methods should be called to release the memory usage of the classes.
         // Though, it is not required to have destructors in java,
         // since there is no manual memory management like in C
-        // Memory management will be handled automatically
+        // Memory management will be handled automatically by GC
     }
 }

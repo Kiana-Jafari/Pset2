@@ -4,11 +4,12 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;
 
-public class Course extends Lesson {
+public class Course {
 
     private final int capacity = 50; // a maximum of 50 students
-
     private int n; // keep track of the students
+
+    private Lesson lesson;
     private Lecturer lecturer; // composition; HAS-A relationship
     private Student[] students = new Student[capacity];
 
@@ -21,7 +22,9 @@ public class Course extends Lesson {
     public void getCourseInfo(Scanner scanner) {
 
         // get the course info
-        this.getLessonInfo(scanner);
+        System.out.println("\nEnter the course info:\n");
+        lesson = new Lesson();
+        lesson.getLessonInfo(scanner);
 
         // get lecturer info
         System.out.println("\nEnter the lecturer's info:\n");
